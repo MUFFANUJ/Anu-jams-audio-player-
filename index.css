@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+} 
+a:hover {
+  font-size: 20px;
+  transition: ease-in-out;
+}
+
+
+body {
+  background-color:black;
+}
+nav {
+  font-family: 'Ubuntu', sans-serif;
+  /* font-size: 1.2rem; */
+  letter-spacing: 1.2px;
+}
+nav ul {
+  display: flex;
+  height: 60px;
+  background-color: black;
+  /* justify-content:space-around; */
+  align-items: center;
+}
+.brand img {
+  height: 44px;
+  padding: 0px 5px;
+}
+nav ul li {
+  list-style-type: none;
+  color: white;
+  padding: 0px 12px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  height: 100px;
+  color: white;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  
+
+}
+.container {
+  display: flex;
+  margin: 23px auto;
+  min-height: 75vh;
+  width: 70%;
+  object-fit:contain;
+  background-color: black;
+  color: white;
+  font-family: osward;
+  border-radius: 12px;
+  padding: 32px;
+  background-image: url('images/anuj\ dp\ \(1\).jpg');
+  background-repeat: no-repeat;
+}
+.icons {
+  margin: 12px 0px;
+  cursor: pointer;
+}
+#myProgressBar {
+  width: 85vw;
+  cursor: pointer;
+  
+}
+.songItem {
+  display: flex;
+  height: 40px;
+  background-color: white;
+  width: 75%;
+  color: black;
+  border-radius: 40px;
+  margin: 12px 0px ;
+  align-items: center;
+  justify-content: space-between;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+.songItem img {
+ width: 71px;
+ border-radius: 50px;
+}
+.timestamp {
+  margin: 0px 25px;
+  
+}
+.timestamp i {
+  cursor: pointer;
+}
+.songItemContainer {
+  margin-top: 33px;
+}
+.songInfo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 7.7vw;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+.songName {
+
+  font-family: 'Oswald', sans-serif;
+}
